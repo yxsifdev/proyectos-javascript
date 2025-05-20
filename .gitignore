@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# CSS compilado
+output.css
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Entorno
+.env
+.env.local
+
+# Archivos temporales del editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tailwind JIT cache (opcional)
+.tailwind/
+
+# Otros
+dist/
+build/
