@@ -29,3 +29,6 @@ Thumbs.db
 # Otros
 dist/
 build/
+
+#templates
+projects.template.html

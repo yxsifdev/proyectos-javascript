@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@yxsifdev | ToDo-List</title>
+    <title>@yxsifdev | ToDo List</title>
     <link rel="stylesheet" href="../../output.css" />
     <link
       rel="shortcut icon"
@@ -12,6 +12,32 @@
     />
   </head>
   <body class="text-white bg-neutral-900">
-    <h1>ToDo-List</h1>
+    <main
+      class="flex flex-col justify-center items-center py-10 mx-auto max-w-5xl min-h-screen"
+    >
+      <h1 class="mb-10 text-4xl font-bold">ToDo List</h1>
+
+      <section class="space-y-2 w-full max-w-sm">
+        <form id="form-task" class="flex flex-col">
+          <label for="task-name" class="mb-2">Nombre de la tarea</label>
+          <input
+            type="text"
+            name="task"
+            id="input-task"
+            autocomplete="off"
+            placeholder="Escribe el nombre de la tarea"
+            class="px-4 py-2 rounded-lg outline-none bg-neutral-800 text-neutral-500"
+          />
+        </form>
+        <div id="task-list" class="space-y-2"></div>
+      </section>
+    </main>
+    <a
+      href="../../index.html"
+      class="fixed top-4 left-4 p-2 rounded-lg bg-neutral-700"
+      >⬅️ Volver</a
+    >
+
+    <script src="./script.js"></script>
   </body>
 </html>
