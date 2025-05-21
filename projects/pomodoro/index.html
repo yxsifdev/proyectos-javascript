@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@yxsifdev | Temporizador Pomodoro</title>
+    <link rel="stylesheet" href="../../output.css" />
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="text-white bg-neutral-900">
+    <main
+      class="flex flex-col justify-center items-center py-10 mx-auto max-w-5xl h-screen px-4"
+    >
+      <h1 class="mb-10 text-4xl font-bold">Temporizador Pomodoro</h1>
+
+      <section class="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full">
+        <div
+          class="bg-neutral-800 rounded-2xl p-5 flex flex-col items-center text-center"
+          data-type="pomodoro"
+        >
+          <h2 class="text-lg font-medium text-neutral-300">Pomodoro</h2>
+          <p class="text-5xl font-bold text-sky-500 timer-display">25:00</p>
+          <div class="mt-2 flex gap-2">
+            <button class="btn-start px-3 py-2 rounded-lg bg-sky-500/30">
+              Iniciar
+            </button>
+            <button class="btn-pause px-3 py-2 rounded-lg bg-yellow-500/30">
+              Pausar
+            </button>
+            <button class="btn-reset px-3 py-2 rounded-lg bg-red-500/30">
+              Reset
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-neutral-800 rounded-2xl p-5 flex flex-col items-center text-center"
+          data-type="descanso"
+        >
+          <h2 class="text-lg font-medium text-neutral-300">Descanso</h2>
+          <p class="text-5xl font-bold text-green-500 timer-display">05:00</p>
+          <div class="mt-2 flex gap-2">
+            <button class="btn-start px-3 py-2 rounded-lg bg-green-500/30">
+              Iniciar
+            </button>
+            <button class="btn-pause px-3 py-2 rounded-lg bg-yellow-500/30">
+              Pausar
+            </button>
+            <button class="btn-reset px-3 py-2 rounded-lg bg-red-500/30">
+              Reset
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-neutral-800 rounded-2xl p-5 flex flex-col items-center text-center"
+          data-type="descansoLargo"
+        >
+          <h2 class="text-lg font-medium text-neutral-300">Descanso largo</h2>
+          <p class="text-5xl font-bold text-yellow-500 timer-display">10:00</p>
+          <div class="mt-2 flex gap-2">
+            <button class="btn-start px-3 py-2 rounded-lg bg-yellow-500/30">
+              Iniciar
+            </button>
+            <button class="btn-pause px-3 py-2 rounded-lg bg-yellow-500/30">
+              Pausar
+            </button>
+            <button class="btn-reset px-3 py-2 rounded-lg bg-red-500/30">
+              Reset
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <a
+      href="../../index.html"
+      class="fixed top-4 left-4 p-2 rounded-lg bg-neutral-700"
+      >⬅️ Volver</a
+    >
+
+    <script src="./script.js"></script>
+  </body>
+</html>

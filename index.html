@@ -33,21 +33,42 @@
     <section class="px-4 pb-20 mx-auto max-w-7xl">
       <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <div
-          class="p-6 rounded-xl border transition-shadow duration-300 bg-neutral-800/30 border-neutral-700/60 hover:shadow-lg shadow-neutral-800/50"
+          class="flex flex-col justify-between p-6 rounded-xl border transition-shadow duration-300 bg-neutral-800/30 border-neutral-700/60 hover:shadow-lg shadow-neutral-800/50"
         >
-          <h2 class="mb-2 text-2xl font-semibold">ToDo List #1</h2>
+          <h2 class="mb-2 text-2xl font-semibold">
+            ⏱️ Temporizador Pomodoro #2
+          </h2>
           <p class="mb-4 text-sm text-neutral-400">
-            ToDo List utilizando localStorage para almacenar y eliminar las
-            tareas almacenadas previamente.
+            Implementa un temporizador de enfoque basado en la técnica Pomodoro.
+            Controla el tiempo con botones de inicio, pausa y reinicio.
           </p>
 
-          <div class="flex flex-wrap gap-2 mb-4 text-xs">
-            <span class="px-2 py-1 rounded-md bg-neutral-700/40"
-              >localStorage</span
+          <div class="flex gap-3">
+            <a
+              href="/projects/pomodoro/"
+              class="px-4 py-2 text-sm font-medium text-yellow-400 rounded-md border border-yellow-400 transition bg-yellow-500/10 hover:bg-yellow-500/20"
             >
-            <span class="px-2 py-1 rounded-md bg-neutral-700/40">DOM</span>
-            <span class="px-2 py-1 rounded-md bg-neutral-700/40">Eventos</span>
+              Demo
+            </a>
+            <a
+              href="https://github.com/yxsifdev/proyectos-javascript/blob/main/projects/pomodoro/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="px-4 py-2 text-sm font-medium text-sky-400 rounded-md border border-sky-400 transition bg-sky-500/10 hover:bg-sky-500/20"
+            >
+              Código
+            </a>
           </div>
+        </div>
+        <div
+          class="flex flex-col justify-between p-6 rounded-xl border transition-shadow duration-300 bg-neutral-800/30 border-neutral-700/60 hover:shadow-lg shadow-neutral-800/50"
+        >
+          <h2 class="mb-2 text-2xl font-semibold">✅ To-Do List #1</h2>
+          <p class="mb-4 text-sm text-neutral-400">
+            ToDo List para gestionar tareas con opciones para agregar, marcar
+            como completadas y eliminar. Usa LocalStorage para mantenerlas
+            guardadas entre sesiones.
+          </p>
 
           <div class="flex gap-3">
             <a
